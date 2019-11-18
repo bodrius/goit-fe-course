@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Первый код в моей жизни</title>
-  </head>
-  <body>
-    <!-- навигация сайта -->
-    <header>
-      <nav>
-        <ul>
-          <li><a href="">lifestyle</a></li>
-          <li><a href="">photodiary</a></li>
-          <li><a href="">musik</a></li>
-          <li><a href="">travel</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- статьи журнала -->
-    <main>
-      <section>
-        <img
-          src="image-01.jpg"
-          alt="picture with girl"
-          width="420"
-          height="277"
-        />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Первый код в моей жизни</title>
+</head>
+
+<body>
+  <!-- навигация сайта -->
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="">lifestyle</a></li>
+        <li><a href="">photodiary</a></li>
+        <li><a href="">musik</a></li>
+        <li><a href="">travel</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- статьи журнала -->
+  <!-- прочитал значение тега артикл и понял что он здесь лучше станет-->
+  <!-- не пойму одно, почему секций одна а не несколько, я думал он ставится под количество статей -->
+  <main>
+    <section>
+      <h2 class="visually-hidden"> Заголовок в разметке есть, но пользователь его не видит</h2>
+      <article>
+        <img src="image-01.jpg" alt="picture with girl" width="420" height="277" />
         <p>lifestyle</p>
         <h2>More than just a musik festival</h2>
         <p>
@@ -54,14 +56,9 @@
           ex similique quisquam fugit delectus officia quasi cupiditate culpa
           numquam?
         </p>
-      </section>
-      <section>
-        <img
-          src="image-02.jpg"
-          alt="picture cup of coffe"
-          width="420"
-          height="280"
-        />
+      </article>
+      <article>
+        <img src="image-02.jpg" alt="picture cup of coffe" width="420" height="280" />
         <p>photodiary</p>
         <h2>Life tastes better with coffe</h2>
         <p>
@@ -90,14 +87,9 @@
           laudantium vel dolor consequuntur assumenda nostrum debitis nesciunt?
           Adipisci!
         </p>
-      </section>
-      <section>
-        <img
-          src="image-03.jpg"
-          alt="picture with bridge"
-          width="420"
-          height="281"
-        />
+      </article>
+      <article>
+        <img src="image-03.jpg" alt="picture with bridge" width="420" height="281" />
         <p>musik</p>
         <h2>American dream</h2>
         <p>
@@ -124,14 +116,9 @@
           atque minus quos, placeat nulla fugit iure corrupti necessitatibus
           tempora animi maiores. Esse expedita laboriosam similique fuga velit?
         </p>
-      </section>
-      <section>
-        <img
-          src="image-04.jpg"
-          alt="picture with boys"
-          width="418"
-          height="280"
-        />
+      </article>
+      <article>
+        <img src="image-04.jpg" alt="picture with boys" width="418" height="280" />
         <p>travel</p>
         <h2>A day exploring the Alps</h2>
         <p>
@@ -159,8 +146,10 @@
           pariatur, error sunt rerum illo veritatis sapiente rem molestiae
           minima maxime! Voluptatem sed aperiam libero quaerat!
         </p>
-      </section>
+      </article>
       <button>Load More</button>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
+
 </html>
