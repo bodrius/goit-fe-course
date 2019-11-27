@@ -35,7 +35,6 @@ input[type="radio"].visually-hidden{
 .container{
   width: 900px;
   margin: 0 auto;
-  background-color:#ffffff;
 }
 /*---подключил основной текст ---*/
 body{
@@ -54,28 +53,40 @@ body{
   margin: 0;
   padding: 0;
 }
+
+.page-header{
+  padding-top: 77px;
+  padding-bottom: 103px;
+}
 /*--задаю размер букв и удаляю точки меню навигации--*/
 .site-navigation{
   font-size: 14px;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 77px;
-  margin-bottom: 103px;
   width: 900px;
   text-align: center;
   background-color: #ffffff;
 }
 /*---работаю со ссылками в меню навигации--*/
 .site-navigation a {
+  font-size: 14px;
+  display: block;
   color: #626262;
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 24px;
 }
+.site-navigation a:hover,
+.site-navigation a:focus{
+  color:#f80a0a
+}
+
+
 /* --работа с выравниванием навигации--*/
 .site-navigation li {
+  font-size: 0;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -86,20 +97,19 @@ margin-right: 50px;
 
   /*===начинаю работать с основными закладками===*/
   /* ---редактирую текст в основных блоках---*/
-  .bookmark{
+  .bookmark-list{
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
-  .bookmark-list h3{
+  .bookmark-item h3{
     color: #626262;
     line-height: 36px;
     font-weight: 400;
     font-size: 30px;
-    
-
-    
   }
+  
+
   .bookmark-deskription{
     font-family:"Ubuntu", sans-serif;
     color: #626262;
@@ -111,30 +121,19 @@ margin-right: 50px;
   }
 
   /*--начинаю выравнивать закладки---*/
-  .bookmark{
-    display: inline-block;
-    width: 421px;
-    font-size: 0;
-    margin-bottom: 133px;
-    
-  }
-
   .bookmark-list{
-    margin: 0;
-    padding: 0;
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 133px;
+    vertical-align: top;
   }
 
-  .div-class{
+  .container{
     position: relative;
   }
 
-  .bookmark-list:nth-child(odd){
-    margin-left: 60px;
-  }
-    
-  .bookmark-image{
+ .bookmark-link{
     margin: 0;
-    padding: 0;
     margin-bottom: 32px;
   }
 
@@ -146,11 +145,8 @@ margin-right: 50px;
     line-height: 36px;
   }
 
-  .bookmark:nth-last-child(1){
-    margin-bottom: 0px;
-  }
-  .bookmark:nth-last-child(-n+2){
-    margin-bottom: 0px;
+  .bookmark-list:nth-child(2n){
+    margin-right: 60px;
   }
 
   .bookmarks-text{
@@ -180,8 +176,11 @@ margin-right: 50px;
 
 .button{
   margin: 0;
-  margin-top: 58px;
   margin-bottom: 70px;
   text-align: center; 
 }
 
+.button :hover,
+.button :focus{
+  color:#f80a0a
+}
