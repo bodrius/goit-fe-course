@@ -35,6 +35,7 @@ input[type="radio"].visually-hidden{
 .container{
   width: 900px;
   margin: 0 auto;
+  font-size: 0;
 }
 /*---подключил основной текст ---*/
 body{
@@ -126,6 +127,7 @@ margin-right: 50px;
     width: 420px;
     margin-bottom: 133px;
     vertical-align: top;
+    font-size: 0;
   }
 
   .container{
@@ -138,7 +140,7 @@ margin-right: 50px;
   }
 
   .bookmark-title{
-    font-size: 30px;
+
     margin: 0;
     padding: 0;
     margin-bottom: 36px;
@@ -152,7 +154,7 @@ margin-right: 50px;
   .bookmarks-text{
     padding: 0;
     margin: 0;
-    font-family:"Ubuntu", sans-serif;
+    font-family:"Open Sans" serif;
     font-size: 14px;
   }
   
