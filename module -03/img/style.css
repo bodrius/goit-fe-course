@@ -35,7 +35,6 @@ input[type="radio"].visually-hidden{
 .container{
   width: 900px;
   margin: 0 auto;
-  font-size: 0;
 }
 /*---подключил основной текст ---*/
 body{
@@ -61,7 +60,7 @@ body{
 }
 /*--задаю размер букв и удаляю точки меню навигации--*/
 .site-navigation{
-  font-size: 14px;
+  font-size: 0px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -87,7 +86,7 @@ body{
 
 /* --работа с выравниванием навигации--*/
 .site-navigation li {
-  font-size: 0;
+  font-size: 14px;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -102,6 +101,7 @@ margin-right: 50px;
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 0;
   }
   .bookmark-item h3{
     color: #626262;
@@ -110,7 +110,6 @@ margin-right: 50px;
     font-size: 30px;
   }
   
-
   .bookmark-deskription{
     font-family:"Ubuntu", sans-serif;
     color: #626262;
@@ -122,13 +121,18 @@ margin-right: 50px;
   }
 
   /*--начинаю выравнивать закладки---*/
-  .bookmark-list{
-    display: inline-block;
+  .bookmark-item{
     width: 420px;
-    margin-bottom: 133px;
     vertical-align: top;
-    font-size: 0;
-  }
+    display: inline-block;
+    }
+    
+    .bookmark-item:not(:nth-child(2n)){
+      margin-right: 60px;
+    }
+    .bookmark-item:nth-child(-n + 2){
+      margin-bottom: 140px;
+    }
 
   .container{
     position: relative;
@@ -140,15 +144,10 @@ margin-right: 50px;
   }
 
   .bookmark-title{
-
     margin: 0;
     padding: 0;
     margin-bottom: 36px;
     line-height: 36px;
-  }
-
-  .bookmark-list:nth-child(2n){
-    margin-right: 60px;
   }
 
   .bookmarks-text{
@@ -156,15 +155,19 @@ margin-right: 50px;
     margin: 0;
     font-family:"Open Sans" serif;
     font-size: 14px;
+    margin-bottom: 140px;
   }
-  
+  .bookmarks-text:nth-last-child(-n + 2){
+    margin-bottom: 0;
+  }
+
 
 /*=== КНОПКА ===*/
 
 .upload{
+  
   border: none;
-  margin: 0;
-  padding: 30px 80px;
+  padding: 17px 33px;
   border-width: 1px;
   border-color: rgb(98, 98, 98);
   border-style: solid;
@@ -172,14 +175,13 @@ margin-right: 50px;
   font-size: 20px;
   line-height: 24px;
   color: #626262;
-  font-family:"Ubuntu", sans-serif;
+  font-family: serif;
   cursor: pointer;
-}
+  margin: 70px 0 57px;
+  }
 
 .button{
-  margin: 0;
-  margin-bottom: 70px;
-  text-align: center; 
+  text-align: center;
 }
 
 .button :hover,
