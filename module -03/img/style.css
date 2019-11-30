@@ -130,7 +130,7 @@ margin-right: 50px;
     .bookmark-item:not(:nth-child(2n)){
       margin-right: 60px;
     }
-    .bookmark-item:nth-child(-n + 2){
+    .bookmark-item:nth-child(-n + 4){
       margin-bottom: 140px;
     }
 
