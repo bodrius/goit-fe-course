@@ -165,12 +165,12 @@ img {
 }
 
 .slider-btn-prev{
-    background-image: url(../img/icon-left.png);
+    background-image: url(../img/Icon/icon-left.png);
     left: 0;
 }
 
 .slider-btn-next{
-    background-image: url(../img/icon-right.png);
+    background-image: url(../img/Icon/icon-right.png);
     right: 0;
 }
 
@@ -339,14 +339,14 @@ img {
 }
 
 .overlay-like{
-    background-image: url(../img/like-icon.png);
+    background-image: url(../img/Icon/like-icon.png);
 }
 
 .overlay-arrow{
-   background-image: url(../img/arrow-icon.png);
+   background-image: url(../img/Icon/arrow-icon.png);
 }
 .overlay-time{
-    background-image: url(../img/time-icon.png);
+    background-image: url(../img/Icon/time-icon.png);
 }
 
 .overlay-card::before{
@@ -355,7 +355,7 @@ img {
     width: 28px;
     height: 27px;
     vertical-align: middle;
-    background-image: url(../img/cart-icon.png);
+    background-image: url(../img/Icon/cart-icon.png);
 }
 .overlay-card:hover{
     background-color: #323232;
