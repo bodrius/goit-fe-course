@@ -1,2 +1,2 @@
 # goit-fe-course
-my first repository
+repository GO IT
