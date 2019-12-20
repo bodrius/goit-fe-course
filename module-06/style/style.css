@@ -329,7 +329,7 @@ width: 380px;
 }
 
  .social-icon:hover{
-    background-color: rgb(149, 225, 211);
+    background-color: rgb(149, 225, 211); 
     transform: scale(1.2);
     transition: .2s .2s linear;
 }
