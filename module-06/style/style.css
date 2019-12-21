@@ -150,7 +150,8 @@ ol{
 .section-box-content{
     display: flex;
     justify-content: center;
-   align-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 .color-text{
     text-align: center;
@@ -164,6 +165,7 @@ ol{
 }
 
 .caption{
+    text-align: center;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -251,8 +253,7 @@ ol{
 
 /* SECTION #2 TEAM */
 .team-text{
-    padding-top: 44px;
-    display: flex;
+    padding-top: 38px;
     text-align:center;
     width: 100%;
     padding-bottom: 90px;
@@ -261,11 +262,9 @@ ol{
     font-weight: 400px;
     line-height: 24px;
     color: #999999;
-}
-
-.team-desk{
-    display: flex;
-    width: 1020px;
+    margin: 0 auto;
+    width: 946px;
+    
 }
 
 .team-list{
@@ -310,8 +309,9 @@ width: 380px;
 
 .overlay{
     position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     background-image: linear-gradient( to top, rgba(252,227,138, .9), rgba(243,129,129, .9));
@@ -336,21 +336,24 @@ width: 380px;
 
 .social-icon-list{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
+    width: 224px;  
   }
   
-.social-icon-list a{
+.social-icon{
     display: inline-block;
     font-size: 0;
     width: 56px;
     height: 56px;
+    margin-right: 1px;
     background-color: rgb(252, 227, 138);
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 2px;
+    
   }
+
+
+
+
 
 .fb-icon{
     background-image: url(../img/cosial-icon/facebook.png);
@@ -414,7 +417,7 @@ form{
     cursor: pointer;
 }
 
-input{
+input::placeholder{
     width: 230px;
     border: 1px solid rgb(229, 229, 229);
     font-size: 15px;
@@ -422,6 +425,6 @@ input{
     font-family: "Roboto", sans-serif;
     color: rgb(229, 229, 229);
     font-style: italic;
-    border-right: none;
+    border: none;
     padding-left: 10px;
 }
