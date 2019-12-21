@@ -162,6 +162,7 @@ ol{
     font-family: "Kaushan Script";
     margin-bottom: 17px;
     color: #333333;
+    text-transform: none;
 }
 
 .caption{
@@ -171,6 +172,7 @@ ol{
     line-height: 36px;
     font-family: Montserrat, sans-serif;
     color: #333333;
+    text-transform: uppercase;
 }
 
 .caption:after{
@@ -211,6 +213,7 @@ ol{
     font-weight: 400;
     font-family: Montserrat, sans-serif;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .service-deck{
@@ -291,6 +294,7 @@ width: 380px;
     font-weight: 400;
     font-family: Montserrat, sans-serif;
     margin-bottom: 13px;
+    text-transform: uppercase;
 }
 
 .team-prof{
@@ -418,7 +422,7 @@ form{
 }
 
 input::placeholder{
-    width: 230px;
+    /* width: 230px; */
     border: 1px solid rgb(229, 229, 229);
     font-size: 15px;
     font-weight: 300;
@@ -426,5 +430,13 @@ input::placeholder{
     color: rgb(229, 229, 229);
     font-style: italic;
     border: none;
+}
+
+input{
+    width: 230px;
     padding-left: 10px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    color: #333333;
 }
