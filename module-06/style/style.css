@@ -267,7 +267,6 @@ ol{
     color: #999999;
     margin: 0 auto;
     width: 946px;
-    
 }
 
 .team-list{
@@ -303,6 +302,7 @@ width: 380px;
     line-height: 24px;
     font-weight: 400;
     font-family: Roboto, sans-serif;
+    font-style: italic;
 }
 
 /* OVERLAY */
