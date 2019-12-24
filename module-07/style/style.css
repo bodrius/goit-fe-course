@@ -189,9 +189,9 @@ ol {
 .caption-description {
     text-align: center;
     display: block;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 29px;
+    line-height: 20px;
     font-family: 'Zilla Slab';
     color: rgb(119, 119, 119);
     padding-bottom: 81px;
@@ -224,7 +224,7 @@ ol {
 .service-desk {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 22px;
     font-weight: 400;
     color: rgb(119, 119, 119);
     margin-bottom: 120px;
@@ -319,28 +319,31 @@ input::placeholder {
     color: rgb(187, 187, 187);
     text-transform: uppercase;
 }
+input:focus{
+    outline-offset: 0px;
+}
 
-input[name="user-name"]:valid {
+input:focus[name="user-name"]:valid {
     outline-color: green;
 }
 
-input[name="user-name"]:invalid {
+input:focus[name="user-name"]:invalid {
     outline-color: red;
 }
 
-input[name="user_e-mail"]:valid {
+input:focus[name="user_e-mail"]:valid {
     outline-color: green;
 }
 
-input[name="user_e-mail"]:invalid {
+input:focus[name="user_e-mail"]:invalid {
     outline-color: red;
 }
 
-textarea[id="user-message"]:valid {
+textarea:focus[id="user-message"]:valid {
     outline-color: green;
 }
 
-textarea[id="user-message"]:invalid {
+textarea:focus[id="user-message"]:invalid {
     outline-color: red;
 }
 

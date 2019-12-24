@@ -30,7 +30,7 @@
         <div class="container">
             <div class="section-caption">
                 <h2 class="caption-main">Services</h2>
-                <span class="caption-description">Proin iaculis purus consequat sem cure. </span>
+                <p class="caption-description">Proin iaculis purus consequat sem cure. </p>
             </div>
             <ul class="services-list">
                 <li class="services-item icon-img1">
@@ -61,7 +61,7 @@
                 <h2 class="form-caption">Contact us</h2>
                 <span class="form-description">Proin iaculis purus consequat sem cure. </span>
             </div>
-            <form action="#" method="GET">
+            <form action="#" method="POST">
                 <ul class="contact-center">
                     <li class="contact-center-list">
                         <input type="text" placeholder="Your Name *" name="user-name" required>
@@ -74,9 +74,7 @@
                     </li>
                 </ul>
                 <div class="user-sms">
-                    <textarea placeholder="Your Message *" id="user-message" cols="30" rows="10"
-                        required></textarea>
-
+                    <textarea placeholder="Your Message *" id="user-message" name="comment" required></textarea>
                 </div>
 
                 <button type="submit" class="btn-form">Send Message</button>
