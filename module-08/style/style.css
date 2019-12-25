@@ -89,12 +89,12 @@ ol{
   @media screen and (min-width: 320px){ */
 
 .container{
-    width: 320px;
+    width: 20rem;
     margin: 0 auto;
 }
 
 .header-nav{
-    padding-top: 20px;
+    padding-top: 1.25rem;
     position: absolute;
     width: 100%;
     top: 0;
@@ -108,9 +108,9 @@ ol{
     background-image: url(../img/image/Image-mobile/background-img-mob.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 130px;
+    padding-top: 8.125rem;
     text-align: center; 
-    padding-bottom: 120px;
+    padding-bottom: 7.5rem;
 }
 
 
@@ -131,9 +131,9 @@ ol{
     border: 2px solid transparent;
     cursor: pointer;
     background-color: inherit;
-    border-radius: 30px;
-    width: 94px;
-    height: 40px;
+    border-radius: 1.875rem;
+    width: 5.875rem;
+    height: 2.5rem;
 }
 
 .btn:hover{
@@ -145,129 +145,142 @@ ol{
     display: block;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-decoration: none;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .caption{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     color: rgb(255, 255, 255);
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 .caption-desk{
-    max-width: 220px;
+    max-width: 13.75rem;
     display: block;
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    font-size: 25px;
-    line-height: 32px;
+    font-size: 1.5625rem;
+    line-height: 2rem;
     color: rgb(255, 255, 255);
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
     text-align: center;
 }
 
 .caption-link{
     display: block;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color:  rgb(255, 78, 80);
-    width: 280px;
-    padding: 12px 0;
+    border: 2px solid transparent;
+    width: 17.5rem;
+    padding: 0.75rem 0;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     cursor: pointer;
     margin: 0 auto;  
 }
+
+.caption-link:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 78, 80);
+    border: 2px solid rgb(255, 78, 80);
+    
+}
 /* <!-- SECTION PARTNER #1 --> */
 
 .partner{
-    padding-top: 68px;
+    padding-top: 4.25rem;
 }
 
 .partner-caption{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 1.375rem;
+    line-height: 1.5625rem;
     color: rgb(51, 51, 51);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .partner-list{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     text-align: center;
 }
 
 .partner-item{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     position: relative;
 }
 
 .partner-item img{
     margin: 0 auto;
-    margin-bottom: 22px;
+    margin-bottom: 1.375rem;
 }
 
 .partner-name{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     color: rgb(51, 51, 51);
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .partner-desk{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.875rem;
+    line-height: 1rem;
     color:rgb(102, 102, 102);
-    width: 220px;
+    width: 13.75rem;
 }
 
 .btn-partner{
     margin: 0 auto;
     display: block;
     border: 2px solid rgb(255, 78, 80);
-    border-radius: 20px;
-    width: 284px;
-    height: 44px;
+    border-radius: 1.25rem;
+    width: 17.75rem;
+    height: 2.75rem;
     background-color: rgb(255, 255, 255); 
-    margin-bottom: 57px;
+    margin-bottom: 3.5625rem;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     color: rgb(255, 78, 80);
     cursor: pointer;
 }
 
+.btn-partner:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 78, 80);
+}
+
 .image-icon:after{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     content: "";
     position: absolute;
-    top: 85px;
-    right: 95px;
+    top: 5.3125rem;
+    right: 5.9375rem;
     border: 5px solid #fff;
     border-radius: 50%;
     box-sizing: border-box;
@@ -294,7 +307,8 @@ ol{
     background-image: url(../img/Icon/icon4.png);
     background-color: rgb(78, 115, 219);
 }
-    
+
+
 
 
 @media screen and (min-width: 768px){
@@ -321,59 +335,62 @@ ol{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 38px;
+        padding-top: 2.375rem;
     }
 
     .box-logo-tablet{
     display: block;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-decoration: none;
     }
 
     .caption-website{
-        padding-top: 250px;
-        padding-bottom: 235px;
+        padding-top: 15.625rem;
+        padding-bottom: 14.6875rem;
     }
 
     .caption{
-        font-size: 52px;
-        line-height: 70px;
-        margin-bottom: 44px;
+        font-size: 3.25rem;
+        line-height: 4.375rem;
+        margin-bottom: 2.75rem;
     }
+
     .caption-desk{
-        max-width: 404px;
-        font-size: 24px;
-        line-height: 29px;
-        margin-bottom: 40px;
+        max-width: 25.25rem;
+        font-size: 1.5rem;
+        line-height: 1.8125rem;
+        margin-bottom: 2.5rem;
     }
         /* SECTION PARTNER 768-940px */
     .partner{
-        padding-top: 70px;
-    }    
+        padding-top: 4.375rem;
+    }  
+
     .partner-caption{
-        font-size: 23px;
-        margin-bottom: 23px;
+        font-size: 1.4375rem;
+        margin-bottom: 1.4375rem;
     }
 
     .partner-item{
-        width: 256px;
-        margin-bottom: 57px;
-        margin-right: 20px;
+        width: 16rem;
+        margin-bottom: 3.5625rem;
+        margin-right: 1.25rem;
     }
+
     .image-icon:after{
-        top: 85px;
-        right: 54px;
+        top: 5.3125rem;
+        right: 3.375rem;
     }
     .partner-list{
         display: flex; 
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
     .order1{
         order: 1;
@@ -385,6 +402,7 @@ ol{
     .partner-item:nth-last-child(2){
         margin-right: 0;
     }
+
     .partner-item:last-child{
         margin-right: 0;
     }
@@ -393,7 +411,7 @@ ol{
         margin-bottom: 0;
     }
     .btn-partner{
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -406,27 +424,28 @@ ol{
         background-image: url(../img/image/image-desctop/background-img-deck.png);
     }
     .container{
-        width: 940px;
+        width: 58.75rem;
         margin: 0 auto;
     }
+
     .partner-caption{
-        margin-bottom: 39px;
+        margin-bottom: 2.4375rem;
     }
 
     .partner-item{
-        width: 222px;
+        width: 13.875rem;
     }
+    
     .partner-list li{
         margin: 0;
     }
-
 
     .partner-list{
         display: flex;
         justify-content: space-between;
     }
     .btn-partner{
-        margin-bottom: 75px;
+        margin-bottom: 4.6875rem;
     }
 }
 
