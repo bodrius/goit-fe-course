@@ -223,7 +223,6 @@ ol{
 }
 
 .partner-item{
-    margin-bottom: 1.25rem;
     position: relative;
 }
 
@@ -308,10 +307,14 @@ ol{
     background-color: rgb(78, 115, 219);
 }
 
+@media (max-width:767px){
+    .partner-item:not(:last-child){
+        margin-bottom: 1.25rem;
+    }
+}
 
 
-
-@media screen and (min-width: 768px){
+@media (min-width: 768px){
 
     .caption-website{
         background-color: rgb(26, 25, 21);
@@ -378,8 +381,6 @@ ol{
 
     .partner-item{
         width: 16rem;
-        margin-bottom: 3.5625rem;
-        margin-right: 1.25rem;
     }
 
     .image-icon:after{
@@ -397,27 +398,21 @@ ol{
     }
     .order2{
         order: 2;
+    }  
+}
+
+@media (min-width: 768px) and (max-width: 939px){
+    .partner-item:nth-child(-n+2){
+        margin-right: 1.25rem;
     }
 
-    .partner-item:nth-last-child(2){
-        margin-right: 0;
-    }
-
-    .partner-item:last-child{
-        margin-right: 0;
-    }
-
-    .partner-item:nth-child(even){
-        margin-bottom: 0;
-    }
-    .btn-partner{
-        margin-bottom: 2.5rem;
+    .partner-item:nth-child(odd){
+        margin-bottom: 3.5625rem;
     }
 }
 
 
-
-@media screen and (min-width: 940px){
+@media (min-width: 940px){
 
     .caption-website{
         background-color: rgb(26, 25, 21);
@@ -436,10 +431,6 @@ ol{
         width: 13.875rem;
     }
     
-    .partner-list li{
-        margin: 0;
-    }
-
     .partner-list{
         display: flex;
         justify-content: space-between;
