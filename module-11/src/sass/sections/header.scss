@@ -1,0 +1,107 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.caption-section{
+    background-image: linear-gradient(to top, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%), url(../images/image/layer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+// @media (min-resolution 192dpi), (min-resolution 2dppx){
+//     .caption-section{
+//         background-image: linear-gradient
+//         (to top, rgba(252,227,138,0.9), 
+//         rgba(243,129,129,0.9)),
+//          url(../img/image/layer1@2x.png);
+//     }
+
+// }
+
+.page-header{
+    padding-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 40px; 
+}
+
+.page-header,
+.container,
+.main-menu,
+.site-navigation__list,
+.box-nav__list,
+.box-nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-menu{
+    min-width: 630px;
+}
+
+.site-navigation__list{
+    min-width: 493px; 
+}
+
+.box-nav__list-icon{
+    width: 18px;
+    height: 16px;
+}
+
+.box-nav__list{
+    width: 86px;
+}
+
+.site__logo{
+    color: snow;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.site-navigation__list-link{
+    color: snow;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-top: 9px;
+}
+
+.box-nav__list-cart,
+.box-nav__list-search{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+}
+
+.box-nav__list-icon{
+    fill: snow;
+}
+.box-nav__list-icon:hover{
+    fill: rgb(252, 227, 138);
+}
+
+.site-navigation__list-link:after{
+    display: block;
+    content:"";
+    width: 100%;
+    margin: 0 auto;
+    height: 3px;
+    background-color: rgb(252, 227, 138);
+    margin-top: 6px;
+    opacity: 0;
+}
+.site-navigation__list-link:hover{
+    color: rgb(252, 227, 138);
+}
+.site-navigation__list-link:hover::after{
+    opacity: 1;
+}
