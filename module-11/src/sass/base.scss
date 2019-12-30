@@ -9,7 +9,7 @@ body {
 }
 
 *, * ::before,
-  * ::after {
+  *  ::after {
   box-sizing: inherit;
 }
 
@@ -20,12 +20,12 @@ input[type="radio"].visually-hidden{
   width: 1px;
   height: 1px;
   margin: -1px;
-  border:0;
+  border: 0;
   padding: 0;
-  white-space:nowrap;
-  clip-path:inset(100%);
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow:hidden;
+  overflow: hidden;
 }
 
 img {
@@ -35,19 +35,16 @@ img {
 }
 
 *{
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
 ol{
-list-style:none;
+  list-style: none;
 }
 
 * a{
   display: block;
   text-decoration: none;
 }
-
-
-

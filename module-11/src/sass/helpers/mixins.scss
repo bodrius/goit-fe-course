@@ -1,9 +1,9 @@
-@mixin font ($font, $fontSize, $lh) {
-    font-style: $font;
-    font-size: $fontSize;
-    line-height: $lh;
-}
+// @mixin font ($font, $fontSize, $lh) {
+//     font-style: $font;
+//     font-size: $fontSize;
+//     line-height: $lh;
+// }
 
 
-@include  вызываем в сss
-font ($font)
+// @include  вызываем в сss
+// font ($font)

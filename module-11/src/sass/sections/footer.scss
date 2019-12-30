@@ -1,69 +1,63 @@
-.page__footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid rgb(229, 229, 229);
-    padding-top: 20px;
-    padding-bottom: 25px;
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(229, 229, 229);
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
-.footer-text{
-    font-size: 14px;
-    color: #333333;
-    line-height: 18px;
-    font-weight: 400;
-    font-family: Montserrat, sans-serif;
+.footer__text{
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  line-height: 18px;
+  font-weight: 400;
+  font-family: $main-font;
 }
 
-.footer-link{
-    text-decoration: none;
-    font-size: 14px;
-    color: #f38181;
-    line-height: 18px;
-    font-weight: 400;
-    font-family: Montserrat, sans-serif;
+.footer__link{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: $pink-color;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: $main-font;
 }
 
-.footer-link{
-    display: inline-block;
-}
-
-.box-footer{
-    border-top: 1px solid rgb(229, 229, 229);
-}
 
 form{
-    display: flex;
-    height: 40px;
+  display: flex;
+  height: 40px;
 }
 
-.btn-subscribe{
-    border: none;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: Montserrat, sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(149, 225, 211);
-    padding: 14px 33px;
-    text-transform: uppercase;
-    cursor: pointer;
+.form__btn{
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: $main-font;
+  color: rgb(255, 255, 255);
+  background-color: $main-color;
+  padding: 14px 33px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 input::placeholder{
-    border: 1px solid rgb(229, 229, 229);
-    font-size: 15px;
-    font-weight: 300;
-    font-family: "Roboto", sans-serif;
-    color: rgb(229, 229, 229);
-    font-style: italic;
-    border: none;
+  border: 1px solid rgb(229, 229, 229);
+  font-size: 15px;
+  font-weight: 300;
+  font-family: $third-font;
+  color: rgb(229, 229, 229);
+  font-style: italic;
+  border: none;
 }
 
 input{
-    width: 230px;
-    padding-left: 10px;
-    line-height: 24px;
-    font-weight: 400;
-    font-family: Roboto, sans-serif;
-    color: #333333;
+  width: 230px;
+  padding-left: 10px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: $third-font;
+  color: rgb(51, 51, 51);
 }
