@@ -18,14 +18,14 @@
   background-size: cover;
 }
 
-@media (min-resolution 192dpi), (min-resolution 2dppx){
-  .caption-section{
-    background-image: linear-gradient
-      (to top, rgba(252,227,138,0.9), 
-    rgba(243,129,129,0.9)),        
-      url(../img/image/layer1@2x.png);
-  }
-}  
+// @media (min-resolution 192dpi), (min-resolution 2dppx){
+//   .caption-section{
+//     background-image: linear-gradient
+//       (to top, rgba(252,227,138,0.9), 
+//     rgba(243,129,129,0.9)),        
+//       url(../img/image/layer1@2x.png);
+//   }
+// }  
 
 .page-header{
   padding-top: 40px;
