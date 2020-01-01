@@ -24,6 +24,10 @@
   min-width: 630px;
 }
 
+.site-navigation__list {
+  min-width: 493px;
+}
+
 .page-header,
 .container,
 .main-menu,
@@ -35,19 +39,15 @@
 }
 
 
-.site-navigation__list {
-  min-width: 493px;
+.site-navigation__link {
+  color: snow;
+  font-size: 14px;
+  font-family: $main-font;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-top: 9px;
 
-
-  &__link {
-    color: snow;
-    font-size: 14px;
-    font-family: $main-font;
-    font-weight: 400;
-    line-height: 1.2;
-    text-transform: uppercase;
-    padding-top: 9px;
-  }
 
   &:after {
     display: block;
@@ -69,23 +69,25 @@
   }
 }
 
-.box-nav__list{
+
+.box-nav__list {
   width: 86px;
 
   &-icon {
     fill: snow;
     width: 18px;
     height: 16px;
-
-    &:hover {
-      fill: $orange-color;
-    }
-
-    &-cart,
-    &-search {
-      cursor: pointer;
-      border: none;
-      background-color: transparent;
-    }
   }
+
+  &-icon:hover {
+    fill: $orange-color;
+  }
+
+  &-cart,
+  &-search {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+
 }

@@ -43,12 +43,8 @@
     box-sizing: border-box;
   }
 
-  @media
-    (min-resolution 2dppx){
-    background-image: linear-gradient
-      (to top, rgba(252,227,138,0.9), 
-      rgba(243,129,129,0.9)), 
-      url(../img/image/bground@2x.jpg);
+  @media (min-resolution: 192dpi){
+    background-image: linear-gradient (to top, rgba(252,227,138,0.9),rgba(243,129,129,0.9)), url(../img/image/bground@2x.jpg);
   } 
 }
 
